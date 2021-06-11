@@ -26,7 +26,7 @@ ibm.mq.user=admin
 ibm.mq.password=passw0rd
 ```
 ## 3. Agregando IBM MQ Starter
-Puedes encontrar la libreria para springboot en el repositorio de [maven](https://mvnrepository.com/artifact/com.ibm.mq/mq-jms-spring-boot-starter) en este caso estamo utilizando maven por lo tanto la configuración es: 
+Puedes encontrar la libreria mq-jms-spring-boot-starter en el repositorio de [maven](https://mvnrepository.com/artifact/com.ibm.mq/mq-jms-spring-boot-starter) ya sea para GRADLE O MAVEN en este caso estamos utilizando maven por lo tanto, la configuración es la siguiente: 
  ```
   <dependency>
     <groupId>com.ibm.mq</groupId>
@@ -36,7 +36,10 @@ Puedes encontrar la libreria para springboot en el repositorio de [maven](https:
 ```
 ## 4. Verificando Aplicativo
    <br>
-   En este paso tenemos que iniciar una instancia de nuestro aplicativo, luego importamos la colección Postman que se encuentra en el proyecto y realiza a probar se ha dicho!!
+   En este paso tenemos que iniciar una instancia de nuestro aplicativo, el cual estaria listo para recibir peticiones.
+   <br>
+   <br>
+   **Si deseas puedes importar la colección postman con nombre "Pagos API.postman_collection.json" que se encuentra dentro del proyecto.
    <br>
    <br>
    <img src="images/Probando-API.png" >
