@@ -7,6 +7,8 @@ Este repositorio tiene como objetivo mostrar un el desarrollo de un aplicativo M
 - Java 11 
 - Librerias java  [mq-jms-spring](https://mvnrepository.com/artifact/com.ibm.mq/mq-jms-spring-boot-starter/2.4.1)
 
+### Si te gusta el contenido del repositorio no olvides dejar una estrella! ⭐⭐⭐⭐
+
 ## 1. Iniciando MQ Local
    En esta caso estaremos utilizando la imagen oficial de [IBM MQ](https://hub.docker.com/r/ibmcom/mq) la cual se encuentra en DockerHub
  ```bash 
