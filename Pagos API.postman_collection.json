@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "879bfde0-800d-4c74-8765-3b5cf1c7726d",
+		"name": "Pagos API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Enviar pago",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tipoTransaccion\":\"pago\",\r\n    \"numeroCuenta\":\"123\",\r\n    \"valor\":100,\r\n    \"identificador\":\"123123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/pagos/enviar"
+			},
+			"response": []
+		}
+	]
+}
