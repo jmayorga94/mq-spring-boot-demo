@@ -11,6 +11,7 @@
 	<groupId>com.devsessions</groupId>
 	<artifactId>mq-spring-boot-demo</artifactId>
 	<name>mq-spring-boot-demo</name>
+
 	<description>Demo using IBM MQ </description>
 	<properties>
 		<java.version>11</java.version>
@@ -43,6 +44,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+					<finalName>mq-spring-boot-demo</finalName>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
